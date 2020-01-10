@@ -1,6 +1,6 @@
 sudo apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget --no-check-certificate  https://raw.githubusercontent.com/marconimp/XtreamUI---All-versions/master/go.py -O install.py ;
 
-sudo python install.py
+sudo python go.py
 
 ==============================================
 
