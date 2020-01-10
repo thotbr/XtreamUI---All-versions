@@ -1,3 +1,38 @@
+sudo apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python -y ; wget --no-check-certificate  https://raw.githubusercontent.com/marconimp/XtreamUI---All-versions/master/install.py -O install.py ;
+
+sudo python install.py
+
+
+https://www.youtube.com/watch?v=0yPJEsCujrM&feature=youtu.be
+
+# How to reset admin password of Xtream-UI?
+
+You may need this if you;
+-forget your password
+-do not remember username of admin
+-after a database migration.
+-exposed password unintentionally.
+
+
+We will use mysql querries and it will be admin/admin again.
+
+-Using SSH: 
+
+sudo mysql
+
+-Now type: 
+
+UPDATE xtream_iptvpro.reg_users SET password='$6$rounds=20000$xtreamcodes$XThC5OwfuS0YwS4ahiifzF14vkGbGsFF1w7ETL4sRRC5sOrAWCjWvQJDromZUQoQuwbAXAFdX3h3Cp3vqulpS0' WHERE id='1';
+
+UPDATE xtream_iptvpro.reg_users SET username = 'admin' WHERE id = '1';
+
+UPDATE xtream_iptvpro.reg_users SET member_group_id = '1' WHERE id = '1';
+
+
+-Login using admin/admin
+
+
+
 # XtreamUI-R120 Official
 Xtream UI 20 official
 
