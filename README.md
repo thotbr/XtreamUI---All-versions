@@ -3,10 +3,8 @@ sudo apt-get update ; apt-get install libxslt1-dev libcurl3 libgeoip-dev python 
 sudo python install.py
 
 
-https://www.youtube.com/watch?v=0yPJEsCujrM&feature=youtu.be
-
 # How to reset admin password of Xtream-UI?
-
+https://www.youtube.com/watch?v=0yPJEsCujrM&feature=youtu.be
 You may need this if you;
 -forget your password
 -do not remember username of admin
